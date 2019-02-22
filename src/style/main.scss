@@ -44,26 +44,22 @@ body {
     flex-direction: row;
 }
 
+.krakenTitle h1 {
+    color: #341d3b;
+}
+
 .icon img {
     width: 5vw;
     height: 4vw;
 }
 
-.rightSection {
+.pageArea {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 20vw;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
 }
 
-.rightSection > .profileImage {
-    width: 50px;
-    height: 50px;
-    background-color: green;
-    border-radius: 100%;
-}
-
-.rightSection > .profileBtn {
-    width: 100px;
-    height: 50px;
+.iconLarge img {
+    size: 2rem;
 }
