@@ -5,8 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 import Home from './pages/home';
-import Login from './pages/login';
-import Create from './pages/createAcc';
+import Post from './pages/post';
 export default class App extends Component {
   render() {
     return (
@@ -14,8 +13,7 @@ export default class App extends Component {
         <Router>
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/login" component={Login} />
-            <Route path="/create" component={Create} />
+            {/* <Route path="/Post" component={Post} /> */}
           </Switch>
         </Router>
       </div>

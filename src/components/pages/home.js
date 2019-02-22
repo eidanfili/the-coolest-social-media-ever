@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import kraken from './../images/kraken.png';
+import Post from './post';
 
 export default class Home extends Component{
     render() {
@@ -22,7 +23,7 @@ export default class Home extends Component{
             
         </div>
         <div className="pageArea">
-        
+            <Post/>
         </div>
         
         </div>
